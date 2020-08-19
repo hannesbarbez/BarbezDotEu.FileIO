@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbezDotEu.FileIO", "BarbezDotEu.FileIO\BarbezDotEu.FileIO.csproj", "{EFD6074E-C2B7-4FD5-8C3E-150744EF493F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DBC081C-2A5D-40A5-A8CF-793F45185D8E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbezDotEu.FileIO.Demo", "BarbezDotEu.FileIO.Demo\BarbezDotEu.FileIO.Demo.csproj", "{DF007021-6C37-40DB-929C-60E2F9B1BF6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD6074E-C2B7-4FD5-8C3E-150744EF493F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD6074E-C2B7-4FD5-8C3E-150744EF493F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD6074E-C2B7-4FD5-8C3E-150744EF493F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD6074E-C2B7-4FD5-8C3E-150744EF493F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF007021-6C37-40DB-929C-60E2F9B1BF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF007021-6C37-40DB-929C-60E2F9B1BF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF007021-6C37-40DB-929C-60E2F9B1BF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF007021-6C37-40DB-929C-60E2F9B1BF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B8D654A-00A1-48E3-BD60-143DB2DAEA2E}
+	EndGlobalSection
+EndGlobal
