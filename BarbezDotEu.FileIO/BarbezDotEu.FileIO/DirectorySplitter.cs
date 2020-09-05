@@ -17,17 +17,17 @@ namespace BarbezDotEu.FileIO
         /// <summary>
         /// In a best-effort kind of a way, moves files in a directory into subdirectories created on the fly.
         /// </summary>
-        /// <param name="directory">The relative or absolute path to the directory to search. This string is not case-sensitive.</param>
+        /// <param name="rootDirectory">The relative or absolute path to the directory to search. This string is not case-sensitive.</param>
         /// <param name="itemsPerSubFolder">The maximum number of items per subdirectory.</param>
-        public static void MoveFilesIntoSubDirectories(string directory, int itemsPerSubFolder)
+        public static void MoveFilesIntoSubDirectories(string rootDirectory, int itemsPerSubFolder)
         {
-            var fileNames = Directory.GetFiles(directory);
+            var fileNames = Directory.GetFiles(rootDirectory);
             var fileCount = fileNames.LongCount();
             var subFolderCount = Convert.ToInt32(Math.Ceiling(decimal.Divide(fileCount, itemsPerSubFolder)));
             var subFolderNameLength = subFolderCount.ToString().LongCount();
             Parallel.For(default(int), subFolderCount, (i) =>
             {
-                var subDirectory = $@"{directory}\{FillTextToLength((i + 1).ToString(), subFolderNameLength, default(long).ToString().First())}";
+                var subDirectory = $@"{rootDirectory}\{FillTextToLength((i + 1).ToString(), subFolderNameLength, default(long).ToString().First())}";
                 var directoryInfo = Directory.CreateDirectory(subDirectory);
                 if (directoryInfo.Exists)
                 {
