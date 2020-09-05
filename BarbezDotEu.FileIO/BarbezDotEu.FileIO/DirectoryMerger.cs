@@ -9,6 +9,11 @@ namespace BarbezDotEu.FileIO
 {
     public static class DirectoryMerger
     {
+        /// <summary>
+        /// Moves all files, found in any subdirectories a given root directory, into the root directory.
+        /// </summary>
+        /// <param name="rootDirectory">The root directory where all files in its subdirectories should be moved into.</param>
+        /// <param name="deleteSubDirectoriesOnFinish">Set to true to delete the actual subdirectories after all files have been moved. Set to false to keep the (potentially empty) subdirectories.</param>
         public static void MergeFilesFromSubDirectoryIntoRootDirectory(string rootDirectory, bool deleteSubDirectoriesOnFinish)
         {
             var paths = Directory.EnumerateDirectories(rootDirectory);
