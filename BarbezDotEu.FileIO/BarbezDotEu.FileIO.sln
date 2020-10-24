@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbezDotEu.FileIO.Demo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbezDotEu.String", "..\..\BarbezDotEu.String\BarbezDotEu.String\BarbezDotEu.String\BarbezDotEu.String.csproj", "{6109499E-9F24-4873-ADEB-29683055C53B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{DB99AE65-0A9D-44F1-969B-676C5E47760B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6109499E-9F24-4873-ADEB-29683055C53B} = {DB99AE65-0A9D-44F1-969B-676C5E47760B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5B8D654A-00A1-48E3-BD60-143DB2DAEA2E}
