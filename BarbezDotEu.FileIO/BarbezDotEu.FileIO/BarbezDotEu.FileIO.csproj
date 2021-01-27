@@ -1,11 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Authors>Barbez.eu</Authors>
     <Company>Barbez.eu</Company>
     <Product>BarbezDotEu.FileIO</Product>
-    <Copyright>©2020 Barbez.eu</Copyright>
+    <Copyright>©2020-21 Barbez.eu</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
