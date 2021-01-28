@@ -24,4 +24,10 @@
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.String" Version="1.0.0" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Vsxmd" Version="1.4.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
