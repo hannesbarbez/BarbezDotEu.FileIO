@@ -7,6 +7,9 @@ using BarbezDotEu.String;
 
 namespace BarbezDotEu.FileIO
 {
+    /// <summary>
+    /// Basic class implementing static methods pertaining to merging of folders/directories.
+    /// </summary>
     public static class DirectoryMerger
     {
         /// <summary>

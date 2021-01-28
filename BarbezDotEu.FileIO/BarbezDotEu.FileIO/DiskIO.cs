@@ -8,6 +8,9 @@ using BarbezDotEu.String;
 
 namespace BarbezDotEu.FileIO
 {
+    /// <summary>
+    /// Basic class implementing static methods pertaining to file persisting to disk.
+    /// </summary>
     public static class DiskIO
     {
         /// <summary>
