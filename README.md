@@ -124,3 +124,6 @@ Appends a line of text to a text file.
 | ---- | ---- | ----------- |
 | path | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The full file path (i.e. incl. folder and file name + extension) to append the line to. |
 | line | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | The line to append to the text file. |
+
+## Author
+www.barbez.eu
