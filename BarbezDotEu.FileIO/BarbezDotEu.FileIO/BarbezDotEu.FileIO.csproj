@@ -24,6 +24,6 @@
     <DocumentationFile>C:\Users\hanne\source\repos\BarbezDotEu.FileIO\BarbezDotEu.FileIO\BarbezDotEu.FileIO\BarbezDotEu.FileIO.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.String" Version="1.3.4" />
+    <PackageReference Include="BarbezDotEu.String" Version="2.1.0" />
   </ItemGroup>
 </Project>
