@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <Authors>Hannes Barbez</Authors>
     <Company>Hannes Barbez</Company>
     <Product>BarbezDotEu.FileIO</Product>
-    <Copyright>©2021 Hannes Barbez</Copyright>
+    <Copyright>©2023 Hannes Barbez</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
