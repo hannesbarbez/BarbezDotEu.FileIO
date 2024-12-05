@@ -6,8 +6,8 @@
     <Title>BarbezDotEu.FileIO</Title>
     <Product>BarbezDotEu.FileIO</Product>
     <PackageId>BarbezDotEu.FileIO</PackageId>
-    <Copyright>©2023 Hannes Barbez</Copyright>
-    <Version>3.0.0</Version>
+    <Copyright>©2024 Hannes Barbez</Copyright>
+    <Version>4.0.0</Version>
     <Description>Misc. logic related to files and IO.</Description>
     <PackageTags>DirectoryDumper,DirectoryMerger,DirectorySplitter,Directory,Folder,Dumper,Merger,Splitter</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -17,10 +17,14 @@
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.FileIO</RepositoryUrl>
-    <PackageIconUrl>https://api.nuget.org/v3-flatcontainer/barbezdoteu.extensions.hosting/3.1.0/icon</PackageIconUrl>
     <DebugSymbols>true</DebugSymbols>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>ICON.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.String" Version="4.0.0" />
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\ICON.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>

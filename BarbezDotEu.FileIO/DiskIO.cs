@@ -37,24 +37,28 @@ namespace BarbezDotEu.FileIO
         /// <returns>The fully-qualified path of where the file was created.</returns>
         public static async Task<string> SaveText(string filename, string text, string directory, DateTime timestampPrefix = default)
         {
-            try
+            if (timestampPrefix != default)
             {
-                if (timestampPrefix != default)
-                {
-                    filename = $"{DateTime.UtcNow.ToString(StringConstants.FileNameCompatibleDateTime)}_{filename}";
-                }
+                filename = $"{DateTime.UtcNow.ToString(StringConstants.FileNameCompatibleDateTime)}_{filename}";
+            }
 
-                var path = Path.Combine(directory, filename);
-                using (StreamWriter outputFile = new StreamWriter(path))
-                {
-                    await outputFile.WriteAsync(text);
-                }
-                return path;
-            }
-            catch
+            return await SaveText(Path.Combine(directory, filename), text);
+        }
+
+        /// <summary>
+        /// Saves a given text to a given filename.
+        /// </summary>
+        /// <param name="path">The full file path (i.e. incl. folder and file name + extension) to append the line to.</param>
+        /// <param name="text">The textual contents of the file.</param>
+        /// <returns>The fully-qualified path of where the file was created.</returns>
+        public static async Task<string> SaveText(string path, string text)
+        {
+            using (StreamWriter outputFile = new StreamWriter(path))
             {
-                return null;
+                await outputFile.WriteAsync(text);
             }
+
+            return path;
         }
     }
 }
