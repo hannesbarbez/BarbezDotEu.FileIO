@@ -31,7 +31,7 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.String" Version="6.0.0" />
+    <PackageReference Include="BarbezDotEu.String" Version="6.0.1" />
     <None Include="..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\ICON.png" Pack="true" PackagePath="\" />
   </ItemGroup>
