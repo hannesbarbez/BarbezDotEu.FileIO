@@ -1,13 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Authors>Hannes Barbez</Authors>
     <Company>Hannes Barbez</Company>
     <Title>BarbezDotEu.FileIO</Title>
     <Product>BarbezDotEu.FileIO</Product>
     <PackageId>BarbezDotEu.FileIO</PackageId>
-    <Copyright>©2025 Hannes Barbez</Copyright>
-    <Version>4.0.1</Version>
+    <Copyright>©2026 Hannes Barbez</Copyright>
+    <Version>5.0.0</Version>
     <Description>Misc. logic related to files and IO.</Description>
     <PackageTags>DirectoryDumper,DirectoryMerger,DirectorySplitter,Directory,Folder,Dumper,Merger,Splitter</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -31,7 +31,7 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BarbezDotEu.String" Version="6.0.1" />
+    <PackageReference Include="BarbezDotEu.String" Version="7.0.0" />
     <None Include="..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\ICON.png" Pack="true" PackagePath="\" />
   </ItemGroup>
